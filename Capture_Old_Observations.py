@@ -41,7 +41,9 @@ def Hidx(T,R):
 def WindChill(T,G):
     WindChill = 35.74+(0.6215*T)-(35.75*(G**0.16))+(0.4275*T*(G**0.16))
     return WindChill
-    
+
+runStart = datetime.now()
+
 proxies = {
 }
 
@@ -262,3 +264,4 @@ for day in dayRange:
 print()
 print("All done")
 # Fini!
+print "Elapsed time: ",(datetime.now()-runStart).seconds," seconds"
