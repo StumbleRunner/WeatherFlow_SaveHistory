@@ -264,4 +264,4 @@ for day in dayRange:
 print()
 print("All done")
 # Fini!
-print "Elapsed time: ",(datetime.now()-runStart).seconds," seconds"
+print("Elapsed time: ",(datetime.now()-runStart).seconds," seconds")
